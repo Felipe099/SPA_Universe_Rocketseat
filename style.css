@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: url("./assets/imgHome.png") no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 4.0rem 7.2rem;
+  gap: 3.2rem;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #C4C4CC;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+}
+
+h1 {
+  color: #E1E1E6;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6.0rem;
+}
+
+/* HOME */
+/* Verificar a centralização */
+.mainHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  height: 81vh;
+  
+}
+
+.mainHome button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background: transparent;
+  padding: 1.2rem 3.2rem;
+  width: 19.5rem;
+  height: 4.8rem;
+  justify-content: center;
+  color: #FFFFFF;;
+  border: 2px solid #FFFFFF;
+  border-radius: .5rem;
+  margin-top: 3.6rem;
+}
+
+
+.mainAbout {
+  padding: 10rem;
+}
+
+.mainAbout p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: #E1E1E6;
+  width: 65rem;
+  height: 20rem;
+  margin-top: 1.6rem;
+}
+
+.mainExplorer {
+  padding: 10rem;
+}
+
+.mainExplorer p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: #E1E1E6;
+  width: 65rem;
+  height: 20rem;
+  margin-top: 1.6rem;
+}
