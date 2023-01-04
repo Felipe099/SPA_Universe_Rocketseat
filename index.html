@@ -7,6 +7,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SPA Universe</title>
+
+        
     </head>
 
     <link
@@ -19,13 +21,14 @@
     <body>
         <nav>
             <img src="./assets/logo.svg" alt="" />
-            <a href="/" onclick="route()">Home</a>
-            <a href="/about" onclick="route()">O Universo</a>
-            <a href="/explorer" onclick="route()">Exploração</a>
+            <a class="linkHome active" href="/" onclick="route()">Home</a>
+            <a class="linkAbout" href="/about" onclick="route()">O Universo</a>
+            <a class="linkExplorer" href="/explorer" onclick="route()"
+                >Exploração</a
+            >
         </nav>
 
         <div id="app"></div>
+        <script src="./main.js" ></script>
     </body>
-
-    <script src="./main.js"></script>
 </html>
